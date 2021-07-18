@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+    <link rel="stylesheet" href="./index.css" />
+    <title>Portfolio</title>
+</head>
+
+<body>
+    <nav>
+        <div class="nav">
+            <ul>
+                <li><a href="#home"> About</a></li>
+                <li><a href="#work"> Work</a></li>
+                <li><a href="#contact"> Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <main>
+        <section id="home">
+            <div class="intro">
+                <h1>Hey I am Zachee</h1>
+                <p id="par">a web developer</p>
+            </div>
+            <!--Accomplishments sections-->
+        </section>
+        <section id="work">
+            <h2 class="Porject_grid_header">These are some of my Projects</h2>
+            <div class="projects">
+                <div class="project">
+                    <a href="https://wonderful-ride-67480d.netlify.app" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/myreads2.PNG" alt="project" />
+                        <p class="project_tile">My Reads</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://priceless-lamarr-e05094.netlify.app/" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/Mandrine2.PNG" alt="project" />
+                        <p class="project_tile">Mandarine</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://play.google.com/store/apps/details?id=com.murugo&hl=en&gl=US" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/Murugo.PNG" alt="project" />
+                        <p class="project_tile">Murugo App</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://ecstatic-leavitt-254970.netlify.app/" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/blog.PNG" alt="project" />
+                        <p class="project_tile">Blogging</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="https://followers-game-13f79.web.app/" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/chats.PNG" alt="project" />
+                        <p class="project_tile">Freind Chat</p>
+                    </a>
+                </div>
+
+                <div class="project">
+                    <a href="#" target="_blank" class="project-title">
+                        <img class="Project_image" src="./images/portofolio.PNG" alt="project" />
+                        <p class="project_tile">My Portofolio</p>
+                    </a>
+                </div>
+            </div>
+
+            <div class="btn">
+                <button> Show All ></button>
+            </div>
+        </section>
+
+        <!--footer section -->
+        <section id="contact">
+            <div class="contact_text">
+                <h1> Let's work together...</h1>
+                <p>how do you take your coffee ?</p>
+            </div>
+            <div class="contact">
+                <div class="youtube">
+                    <a href="https://www.youtube.com/channel/UCPtzs9umqpqMauPkpHw851g"><i class="fab fa-youtube-square"> Youtube</i></a>
+                </div>
+                <div class="linkedIn">
+                   <a href="https://www.linkedin.com/in/zachee-ishimwe/"> <i class="fab fa-linkedin"> LinkedIn</i></a>
+                </div>
+                <div class="github">
+                    <a href="https://github.com/ishimwezachee"><i class="fab fa-github-square"> Github</i></a>
+                </div>
+                <div class="call" onclick="myNumber()">
+                    <i class="fas fa-mobile-alt"> Call</i>
+                </div>
+                <div class="email" onclick="myEmail()">
+                    <i class="fas fa-envelope-square"> Email</i>
+                </div>
+            </div>
+        </section>
+    </main>
+    <script>
+        function myNumber(){
+            alert('+250780646445')
+        }
+
+        function myEmail(){
+            alert("zacheeishimwe@gmail.com")
+        }
+    </script>
+</body>
+
+</html>

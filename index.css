@@ -1,0 +1,215 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    box-sizing: border-box;
+}
+
+.nav {
+    background-color: #BE3144;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: 0 4px 0 rgb(0 0 0 /40%);
+}
+
+ul {
+    list-style: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+li {
+    padding: 25px;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+li:hover {
+    background-color: rgb(46, 27, 112);
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h1 {
+    color: white;
+}
+
+#par {
+    color: #be3144;
+    font-style: oblique;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90vh;
+    flex-direction: column;
+    background-color: black;
+    background-image: linear-gradient(62deg, #3a3d40, #181719 100%);
+    font-size: 30px;
+}
+
+#work {
+    background-color: #45567d;
+}
+
+h2 {
+    color: white;
+    font-size: 2rem;
+    margin: auto;
+    width: 40%;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    font-family: monospace;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.project {
+    background: #303841;
+    width: 27%;
+    margin-top: 50px;
+    margin-bottom: 20px;
+}
+
+.Project_image {
+    width: 100%;
+    height: 22rem;
+}
+
+.project-title p {
+    color: darkorange;
+    text-align: center;
+    font-size: 25px;
+    padding: 30px;
+    font-weight: bold;
+    font-family:sans-serif;
+}
+
+.projects {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+button {
+    background-color: #303841;
+    color: white;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px 20px;
+}
+
+.btn {
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+#contact {
+    background-color: #303841;
+}
+
+.contact_text {
+    text-align: center;
+    color: white;
+    font-family: monospace;
+    padding: 40px;
+}
+
+.contact_text h1 {
+    font-size: 50px;
+}
+
+.fab,.fas{
+    color: white;
+    cursor: pointer;
+}
+
+.contact_text p {
+    margin: 2rem 0;
+    font-size: 23px;
+    font-style: oblique;
+    color: rgb(179, 179, 179);
+}
+
+.youtube,
+.linkedIn,
+.github,
+.call,
+.email {
+    font-size: 2rem;
+    color: white;
+}
+
+#contact {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contact {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 30px 0px 100px 0px;
+}
+
+@media screen and (max-width: 480px) {
+    h2 {
+        font-size: 22px;
+        width: 90%;
+        text-align: center;
+    }
+     .Project_image {
+        height: auto;
+        border-top: 10px solid white;
+    }
+    .project {
+        width: 100%;
+    }
+    .contact_text h1 {
+        font-size: 25px;
+    }
+
+    .contact_text p {
+        font-size: 15px;
+    }
+    .youtube,
+    .linkedIn,
+    .github{
+    display: none;
+}
+    
+}
+
+
+
+
+
+
+
+
+
+/* 
+Small Devices 
+max-width = 576px;
+
+meduim devices 
+max-width = 768px;
+
+Large devices 
+max-width: 992px;
+
+*/
